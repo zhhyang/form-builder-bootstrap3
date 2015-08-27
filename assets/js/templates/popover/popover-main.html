@@ -1,0 +1,9 @@
+<form class='form-horizontal'>
+    <% var compiled =  _.reduce(items, function(str, v, k){ %>
+      <% v["name"] = k; %>
+      <% return str + popoverTemplates[v["type"]](v); %>
+    <% }, "") %>
+    <%= compiled %>
+    <hr/>
+    <button id="save" class='btn btn-info'>保存</button><button id="cancel" class='btn btn-danger'>取消</button>
+</form>

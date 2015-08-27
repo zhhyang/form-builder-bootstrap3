@@ -1,0 +1,124 @@
+[
+  {
+  	"templateid":"multipleradios",
+    "title": "单选",
+    "fields": {
+      "id": {
+        "label": "ID / Name(禁止修改)",
+        "type": "input",
+        "value": "multipleradios"
+      },
+      "label": {
+        "label": "Label Text",
+        "type": "input",
+        "value": "单选"
+      },
+      "required": {
+        "label": "是否必填",
+        "type": "checkbox",
+        "value": false
+      },
+      "radios": {
+        "label": "选项(换行区分)",
+        "type": "textarea-split",
+        "value": [
+          "选项一",
+          "选项二"
+        ]
+      }
+    }
+  },
+  {
+  	"templateid":"multipleradiosinline",
+    "title": "内联单选框",
+    "fields": {
+      "id": {
+        "label": "ID / Name(禁止修改)",
+        "type": "input",
+        "value": "multipleradiosinline"
+      },
+      "label": {
+        "label": "标示",
+        "type": "input",
+        "value": "内联单选框"
+      },
+      "required": {
+        "label": "是否必填",
+        "type": "checkbox",
+        "value": false
+      },
+      "radios": {
+        "label": "选项(换行区分)",
+        "type": "textarea-split",
+        "value": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    }
+  },
+  {
+  	"templateid":"multiplecheckboxes",
+    "title": "多选框",
+    "fields": {
+      "id": {
+        "label": "ID / Name(禁止修改)",
+        "type": "input",
+        "value": "multiplecheckboxes"
+      },
+      "label": {
+        "label": "标示",
+        "type": "input",
+        "value": "多选框"
+      },
+      "required": {
+        "label": "是否必填",
+        "type": "checkbox",
+        "value": false
+      },
+      "checkboxes": {
+        "label": "选项(换行区分)",
+        "type": "textarea-split",
+        "value": [
+          "选项一",
+          "选项二",
+          "选项三",
+          "选项四"
+        ]
+      }
+    }
+  },
+  {
+  	"templateid":"multiplecheckboxesinline",
+    "title": "内联多选框",
+    "fields": {
+      "id": {
+        "label": "ID / Name(禁止修改)",
+        "type": "input",
+        "value": "multiplecheckboxesinline"
+      },
+      "label": {
+        "label": "标示",
+        "type": "input",
+        "value": "内联多选框"
+      },
+      "required": {
+        "label": "是否必填",
+        "type": "checkbox",
+        "value": false
+      },
+      "checkboxes": {
+        "label": "选项(换行区分)",
+        "type": "textarea-split",
+        "value": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    }
+  }
+]

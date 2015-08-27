@@ -1,0 +1,83 @@
+[
+  {
+  	"templateid" : "textinput",
+    "title": "文本输入框",
+    "fields": {
+      "id": {
+        "label": "ID / Name(禁止修改)",
+        "type": "input",
+        "value": "textinput"
+      },
+      "label": {
+        "label": "Label Text",
+        "type": "input",
+        "value": "Text Input"
+      },
+      "placeholder": {
+        "label": "Placeholder",
+        "type": "input",
+        "value": "placeholder"
+      },
+      "helptext": {
+        "label": "帮助文本",
+        "type": "input",
+        "value": "帮助"
+      },
+      "required": {
+        "label": "是否必填",
+        "type": "checkbox",
+        "value": false
+      }
+    }
+  },{
+    "templateid" : "passwordinput",
+    "title": "Password Input",
+    "fields": {
+      "id": {
+        "label": "ID / Name(禁止修改)",
+        "type": "input",
+        "value": "passwordinput"
+      },
+      "label": {
+        "label": "Label Text",
+        "type": "input",
+        "value": "Password Input"
+      },
+      "placeholder": {
+        "label": "Placeholder",
+        "type": "input",
+        "value": "placeholder"
+      },
+      "helptext": {
+        "label": "帮助文本",
+        "type": "input",
+        "value": "帮助"
+      },
+      "required": {
+        "label": "是否必填",
+        "type": "checkbox",
+        "value": false
+      }
+    }
+  },{
+  	"templateid":"textarea",
+    "title": "多行文本输入框",
+    "fields": {
+      "id": {
+        "label": "ID / Name(禁止修改)",
+        "type": "input",
+        "value": "textarea"
+      },
+      "label": {
+        "label": "Label Text",
+        "type": "input",
+        "value": "Text Area"
+      },
+      "textarea": {
+        "label": "默认",
+        "type": "textarea",
+        "value": "默认"
+      }
+    }
+  }
+]
